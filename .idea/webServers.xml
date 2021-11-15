@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4a287131-0935-48ec-9595-4a2d4224663b" name="192.168.31.29">
+        <fileTransfer rootFolder="/home/bmstar/work/helloworld" accessType="SFTP" host="192.168.31.129" port="22" sshConfigId="cc5b62fe-1dbc-4467-b2b8-e04e143b1fde" sshConfig="bmstar@192.168.31.129:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
