@@ -15,6 +15,8 @@ pub struct GreetingAccount {
     pub counter: u32,
 }
 
+//Program Id: 6sXWDmTV7nxFj459jNWKrVywdZ8LSrWwPRHkd29FWzv5
+
 // Declare and export the program's entrypoint
 entrypoint!(process_instruction);
 
