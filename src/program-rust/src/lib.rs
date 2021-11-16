@@ -45,7 +45,7 @@ pub fn process_instruction(
     greeting_account.counter += 1;
     greeting_account.serialize(&mut &mut account.data.borrow_mut()[..])?;
 
-    msg!("Greeted {} time(s)!", greeting_account.counter);
+    msg!("Greeted -> {} time(s)!", greeting_account.counter);
 
     Ok(())
 }

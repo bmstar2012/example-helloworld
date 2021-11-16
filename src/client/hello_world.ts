@@ -109,6 +109,7 @@ export async function establishPayer(): Promise<void> {
 
     payer = await getPayer();
   }
+  console.log("payer", payer);
 
   let lamports = await connection.getBalance(payer.publicKey);
   if (lamports < fees) {
